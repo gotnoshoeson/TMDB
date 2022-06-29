@@ -18,7 +18,7 @@
     import SearchMovies from '../components/SearchMovies.svelte';
     export let popular;
     import { fly } from 'svelte/transition';
-    const API_KEY = import.meta.env.VITE_API;
+    import { API_KEY } from '../Env';
 </script>
 <!--
     Use components in main app and pass data object to the component, state is updated auto-magically!
